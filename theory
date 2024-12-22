@@ -1,0 +1,37 @@
+Boiler Plate: Amount of code which is mandatory and must be written to move ahead.
+HTML boiler plate can be accessed by typing HTML.
+
+TAGs:
+
+<>=TAGs
+anything written between the angular brackets<> defines the type of tag.
+EX: <H1>= heading tag
+    <body>= body tag
+Every tag that is opened needs to be closed using the close tag
+    </H1>(closes the tag)
+    <body>
+
+Understanding live server: needs to be installed in the IDE to use. Can be found in the extensions.
+            Helps us to keep check of our work.
+
+H1 tag is the biggest font tag.
+H6 tag is the smallest font tag.
+
+Paragraph Tag
+ The paragraph tag helps u to write multiple line content in between the paragraph tag.
+
+BR tag
+ The br tag is used to give break in between paragraphs and makes the content after the br tag to get 
+ printed in the next line.
+
+IMAGE Tag
+
+image tag is used provide image in the page.
+<img src="">
+
+Anchor tag
+<a href=""></a>
+also called hyerlinks or links.
+one needs to provide the compelete the address of the website that you will provide in the anchor tag.
+the content provided in between the opening a tag and the closing a tag will be shown as a hyperlink content.
+
