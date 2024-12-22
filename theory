@@ -35,3 +35,19 @@ also called hyerlinks or links.
 one needs to provide the compelete the address of the website that you will provide in the anchor tag.
 the content provided in between the opening a tag and the closing a tag will be shown as a hyperlink content.
 
+div tag
+ div is a rectangle by default jiski width hoti h but does not has a height.
+ div's height is equal to the height of it's children.
+
+ID tag
+<p id="xyv"></p>
+assigns an id to the paragraph.
+IDs name can't be duplicated.
+
+CLASS tag
+<p class=""></p>
+Class names can be same.
+
+When to use ID and when to use class.
+ID is used when a single attribute is given to a single element.
+Class is used when a single attribute is given to multiple element.
