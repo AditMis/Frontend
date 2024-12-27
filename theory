@@ -50,4 +50,82 @@ Class names can be same.
 
 When to use ID and when to use class.
 ID is used when a single attribute is given to a single element.
+to call a ID  use #IDname 
 Class is used when a single attribute is given to multiple element.
+to call a class use .
+
+
+CSS(Cascasding style Sheets)
+Used to style our website and make it look better.
+
+Linking HTML and CSS file:
+    <link rel="stylesheet" href="style.css">
+this code helps us to link the html file with the css file.
+
+CSS boiler plate: 
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+one should always type the above boilerplate in every css page.
+
+Understanding way to write our CSS code:
+
+Target any element and turn on it's curly braces.
+Ex: 
+H1{
+    CSS CODE in between the braces.
+}
+
+# is for ID
+. is for class.
+and H1 is tag.
+
+to target a p tag:
+One can use 
+p{
+    this method 
+}
+
+or can give id in the html and than target it as
+
+#idname{
+
+}
+
+or can assign a class name and than target it as
+
+.classname{
+
+}
+
+UNDERSTANDING WIDTH AND HEIGHT 
+
+widht and height define the area assigned to a particular element using the CSS.
+
+Units,px and %
+
+% is used when an element size is described using the screen's size.
+px is used when a very small value to be used in the css.
+
+Margin, Padding
+
+Margin is used to give a margin on all sides of a described size for the element.
+Margin-left, margin-right, margin-bottom, margin-top are used to give margin to specific sides of the element.
+margin: 20px 30px 50px 70px (top, right, bottom, left) give margin to all the sides in one single statement.
+margin:30px 50px (30px is applied on top and bottom of the element whereas 50 px is applied on left and right of the element.)
+
+Padding is space inside an element. Can also be defined as imaginary border inside an element.
+
+Background Image 
+background-image:url(link of image); this code line is used to use and image a background.
+use background-image cover to make the image cover the whole area or else it won't cover the complete the area.
+if the image is too big we can use backgorund-position: top or bottom or left or right or center  to see which part of the image should be visible.
+
+Position absolute

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+     
+    width: 100%;
+    height: 100%;
+    /*margin: 20px 30px 50px 90px;
+    padding:30px;*/
+    background-image: url(https://plus.unsplash.com/premium_photo-1697898005341-f2a997934d78?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8);
+    background-size: cover;
+    background-position:top;
+   /*background-color:rgb(0, 255, 115);*/
+}
