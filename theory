@@ -129,3 +129,10 @@ use background-image cover to make the image cover the whole area or else it won
 if the image is too big we can use backgorund-position: top or bottom or left or right or center  to see which part of the image should be visible.
 
 Position absolute
+The element with position absolute will get raised at its own position. The poisiton absolute can hide objects below it and cover it completely if seen from top view.
+Ex:- there are 3 cars ,
+if car 1 is absolute car it will rise at it's own position at layer 1 and the cars behind it will move forward
+if car 2 is absolute element it will rise at layer 2 position and the car 3 which is behind car 2 will move forward at the position of car 2.
+when car 3 is absolute element it will rise to layer 3 position and no cars will be effected.
+
+Position relatives
